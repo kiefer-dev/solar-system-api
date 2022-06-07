@@ -94,7 +94,7 @@ app.get('/api/:name', (request, response) => {
 })
 
 
-//Listen on port 8000
+//Listen on the PORT
 app.listen(PORT, _ => {
   console.log(`The server is running on port ${PORT}. Betta go catch it!`);
 })
