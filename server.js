@@ -6,7 +6,7 @@ let PORT = process.env.PORT || 8000;
 app.use(cors());
 
 
-// API Object to serve
+// API Object to serve (source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/)
 const planets = {
   'sun': {
     'name': 'The Sun',
